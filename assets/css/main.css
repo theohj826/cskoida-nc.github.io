@@ -1809,8 +1809,16 @@
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #e89980;
+		/*border-bottom: dotted 1px;
+		color: rgb(95, 183, 73);*/
+		text-decoration: none;
+	}
+    a imag{
+		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+        border-bottom-color: transparent;
 		text-decoration: none;
 	}
 
@@ -1819,7 +1827,7 @@
 		}
 
 	strong, b {
-		color: #646464;
+		color: rgb(95,183,73);
 		font-weight: 400;
 	}
 
@@ -1831,12 +1839,24 @@
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h3, h5, h6 {
 		color: rgb(95,183,73);
 		font-weight: 300;
 		line-height: 1em;
-		margin: 0 0 0.25em 0;
+		margin: 0 0 0 0;
 	}
+    h4 {
+        color: rgb(95,183,73);
+		font-weight: 300;
+		line-height: 1em;
+		margin: 0 0 0 0;
+    }
+    h2{
+    color: rgb(95,183,73);
+		font-weight: 300;
+		line-height: 1em;
+		margin: 0 0 .5em 0;
+    }
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -1982,7 +2002,7 @@
 		header.major p {
 			display: inline-block;
 			border-top: solid 2px #777;
-			color: #777;
+			color: black;
 			margin: 1.5em 0 0 0;
 			padding: 1.5em 0 0 0;
 			font-style: normal;
@@ -2800,10 +2820,10 @@
 	}
 
 	#header {
-		background: #444;
+		background: #202020;
 		color: #bbb;
 		cursor: default;
-		height: 3.25em;
+		height: 3.35em;
 		left: 0;
 		line-height: 3.25em;
 		position: fixed;
@@ -3106,7 +3126,7 @@
 
 			#main > header h2 {
 				font-size: 2.75em;
-				margin: 0;
+				margin: 0 0 3em 0;
 			}
 
 			#main > header p {
