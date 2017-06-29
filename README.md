@@ -1,1 +1,0 @@
-# cskoida-nc.github.io
