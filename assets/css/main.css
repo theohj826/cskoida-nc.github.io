@@ -2737,7 +2737,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #e89980;
+			background-color: rgb(95, 183, 73);
 			color: #ffffff !important;
 		}
 
@@ -2745,14 +2745,14 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #ecaa96;
+				background-color: rgb(95, 183, 73);
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #e4886a;
+				background-color: rgb(95, 183, 73);
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -3018,7 +3018,7 @@
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span, .dropotron li:hover > a, .dropotron li:hover > span {
-				background: #e89980;
+				background: rgb(95, 183, 73);
 				color: #ffffff;
 			}
 
