@@ -60,12 +60,12 @@
         font-family: 'Nunito', sans-serif;
     }
 .sh{
-    font-size: 3em;
+    font-size: 4em;
     color:gray;
     text-align: center;
     text-decoration: none;
     border-bottom: 1px solid lightgray;
-    margin-bottom:0.2em;
+    margin: -1.2em 0 0.2em;
 }
 /* Goto Next */
 
@@ -1899,14 +1899,14 @@
 		margin: 0 0 0 0;
     }
     h2{
-        color: rgb(95,183,73);
-        text-transform: uppercase;
         font-family: 'Nunito', sans-serif;
+        color: rgb(95,183,73);
+        text-transform: uppercase;  
 		font-weight: 300;
-		line-height: 2em;
-		margin: 0 0 0 0;
-		font-size: 5.25em;
 		line-height: 1em;
+		margin: 0 0 -4em 0;
+		font-size: 4em;
+
 		letter-spacing: -0.035em;
     }
 
@@ -3094,6 +3094,75 @@
 				width: 0.75em;
 				z-index: 0;
 			}
+    
+#project{
+		background-attachment: scroll,							fixed;
+		background-color: #666;
+		background-image:url("../../images/Garage+Light.jpg");
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: cover;
+		color: #fff;
+		padding: 12em 0 10em 0;
+		text-align: center;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("../../images/Garage+Light.jpg");
+	}
+
+		#project :last-child {
+			margin-bottom: 0;
+		}
+
+		#project h2, #project h3, #project h4, #project h5, #project h6 {
+			font-family: 'Nunito', sans-serif;
+            font-size: 5em;
+            text-transform: none;
+            color: rgb(95,183,73);
+            margin-bottom: .2em;
+		}
+
+		#project h2 {
+			font-size: 3.5em;
+			line-height: 1em;
+			margin: -.75em 0 0 0;
+			padding: 0;
+		}
+
+		#project p {
+			font-size: 1.65em;
+			margin-bottom: -.5em 0 0 0;
+		}
+
+		#project input[type="submit"],
+		#project input[type="reset"],
+		#project input[type="button"],
+		#project .button {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+			color: #fff;
+			min-width: 12em;
+		}
+
+			#project input[type="submit"]:hover,
+			#project input[type="reset"]:hover,
+			#project input[type="button"]:hover,
+			#project .button:hover {
+				background-color: rgba(255, 255, 255, 0.1);
+			}
+
+			#project input[type="submit"]:active,
+			#project input[type="reset"]:active,
+			#project input[type="button"]:active,
+			#project .button:active {
+				background-color: rgba(255, 255, 255, 0.2);
+			}
+
+			#project input[type="submit"].special,
+			#project input[type="reset"].special,
+			#project input[type="button"].special,
+			#project .button.special {
+				background: #fff;
+				color: #666 !important;
+			}
 
 /* Banner */
 	#banner {
@@ -3125,7 +3194,7 @@
 		}
 
 		#banner p {
-			font-size: 2em;
+			font-size: 1.65em;
 			margin-bottom: -.5em 0 0 0;
 		}
 
@@ -3248,6 +3317,8 @@
 
 		#cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
 			color: inherit;
+            font-size: 4em;
+            margin-bottom: .25em;
 		}
 
 		#cta form {
