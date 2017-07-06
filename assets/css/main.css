@@ -82,7 +82,7 @@
 			display: block;
 			height: 1.5em;
 			left: 50%;
-			margin: 0.5em 0 0 -1em;
+			margin: 0 0 0 -1em;
 			position: absolute;
 			top: 50%;
 			width: 2em;
@@ -3108,13 +3108,13 @@
 		#banner h2 {
 			font-size: 3.5em;
 			line-height: 1em;
-			margin: -.5em 0 0.2em 0;
+			margin: -.75em 0 0 0;
 			padding: 0;
 		}
 
 		#banner p {
 			font-size: 2em;
-			margin-bottom: 1.75em;
+			margin-bottom: -.5em 0 0 0;
 		}
 
 		#banner input[type="submit"],
