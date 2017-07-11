@@ -2625,10 +2625,10 @@
 
 		table th {
 			color: #646464;
-			font-size: 0.9em;
+			font-size: 2em;
 			font-weight: 300;
-			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
+			padding: 0 0.75em .45em 0.75em;
+			text-align: center;
 		}
 
 		table thead {
@@ -3129,8 +3129,8 @@
 		}
 
 		#project p {
-			font-size: 1.65em;
-			margin-bottom: -.5em 0 0 0;
+			font-size: 4em;
+			margin: -.3em 0 0 0;
 		}
 
 		#project input[type="submit"],
