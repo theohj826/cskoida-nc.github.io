@@ -50,12 +50,42 @@
 								</ul>
 							</li>
                             <li><a href="finance.html">Financing</a></li>
-							<li><a href="contact.html" class="button">Contact Us</a></li>
+							<li><a href="mailto:sam.yum@cskled.com" class="button">Contact Us</a></li>
 						</ul>
 					</nav>
 				</header>
 
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+            <script>
+            $.ajax({
+  type: “POST”,
+  url: “https://mandrillapp.com/api/1.0/messages/send.json”,
+  data: {
+    ‘key’: ‘xDpgaQFQlI17CRD9FyJCzQ’,
+    ‘message’: {
+      ‘from_email’: ‘theo@cskled.com’,
+      ‘to’: [
+          {
+            ‘email’: ‘RECIPIENT_NO_1@EMAIL.HERE’,
+            ‘name’: ‘RECIPIENT NAME (OPTIONAL)’,
+            ‘type’: ‘to’
+          },
+          {
+            ‘email’: ‘RECIPIENT_NO_2@EMAIL.HERE’,
+            ‘name’: ‘ANOTHER RECIPIENT NAME (OPTIONAL)’,
+            ‘type’: ‘to’
+          }
+        ],
+      ‘autotext’: ‘true’,
+      ‘subject’: ‘YOUR SUBJECT HERE!’,
+      ‘html’: ‘YOUR EMAIL CONTENT HERE! YOU CAN USE HTML!’
+    }
+  }
+ }).done(function(response) {
+   console.log(response); // if you're into that sorta thing
+ });
+            </script>
+            
 			<!-- Main -->
 				<section id="main" class="container">
 					<section class="box special">
@@ -122,15 +152,11 @@
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+						<li><a href="http://www.facebook.com/cskoida" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						
 					</ul>
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; CS Koida LLC. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</footer>
 
