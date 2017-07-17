@@ -1903,13 +1903,14 @@
 		margin: 0 0 0 0;
     }
     h2{
-        font-family: 'Nunito', sans-serif;
+        /*font-family: 'Libre Franklin', sans-serif;*/
+        font-family: 'Fira Sans', sans-serif;
         color: rgb(95,183,73);
         text-transform: uppercase;  
 		font-weight: 300;
 		line-height: 1em;
-		margin: 0 0 -4em 0;
-		font-size: 4em;
+		margin: 0 0 -.65em 0;
+		font-size: 5em;
 
 		letter-spacing: -0.035em;
     }
