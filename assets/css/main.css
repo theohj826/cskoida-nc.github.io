@@ -2063,6 +2063,9 @@
     margin: .35em 0 -.5em 0;
     font-size:3em;
 }
+#pic{
+    margin-bottom: -1.5em;
+}
 /* Form */
 
 	form {
