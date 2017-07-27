@@ -3100,6 +3100,76 @@
 				width: 0.75em;
 				z-index: 0;
 			}
+#contact{
+		background-attachment: scroll,							fixed;
+		background-color: #666;
+		background-image:url("../../images/led.jpg");
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: cover;
+		color: #fff;
+		padding: 12em 0 10em 0;
+		text-align: center;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("../../past-projects-images/2016/Hay-Distributing-2/csk-led-high-bay-2.jpg");
+	}
+
+		#contact :last-child {
+			margin-bottom: 0;
+		}
+
+        #contact h3, #contact h4, #contact h5, #contact h6 {
+			font-family: 'Nunito', sans-serif;
+            font-size: 5em;
+            text-transform: none;
+            color: rgb(95,183,73);
+            margin-bottom: .2em;
+		}
+
+		#contact h2 {
+            font-family: 'Nunito', sans-serif;
+			font-size: 7em;
+			line-height: 1em;
+			margin: -.75em 0 0 0;
+			padding: 0;
+		}
+
+		#contact p {
+			font-size: 1.75em;
+			margin: 0 0 0 0;
+		}
+
+		#contact input[type="submit"],
+		#contact input[type="reset"],
+		#contact input[type="button"],
+		#contact .button {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+			color: #fff;
+			min-width: 12em;
+		}
+
+			#contact input[type="submit"]:hover,
+			#contact input[type="reset"]:hover,
+			#contact input[type="button"]:hover,
+			#contact .button:hover {
+				background-color: rgba(255, 255, 255, 0.1);
+			}
+
+			#contact input[type="submit"]:active,
+			#contact input[type="reset"]:active,
+			#contact input[type="button"]:active,
+			#contact .button:active {
+				background-color: rgba(255, 255, 255, 0.2);
+			}
+
+			#contact input[type="submit"].special,
+			#contact input[type="reset"].special,
+			#contact input[type="button"].special,
+			#contact .button.special {
+				background: #fff;
+				color: #666 !important;
+			}
+
 #ledreason{
 		background-attachment: scroll,							fixed;
 		background-color: #666;
