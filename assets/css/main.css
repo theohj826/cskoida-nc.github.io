@@ -113,7 +113,7 @@
 
 	.container.\31 25\25 {
 		width: 100%;
-		max-width: 75em;
+		max-width: 80em;
 		min-width: 60em;
 	}
 
@@ -3099,6 +3099,75 @@
 				top: -0.375em;
 				width: 0.75em;
 				z-index: 0;
+			}
+#ledreason{
+		background-attachment: scroll,							fixed;
+		background-color: #666;
+		background-image:url("../../images/led.jpg");
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: cover;
+		color: #fff;
+		padding: 12em 0 10em 0;
+		text-align: center;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("../../images/led.jpg");
+	}
+
+		#ledreason :last-child {
+			margin-bottom: 0;
+		}
+
+        #ledreason h3, #ledreason h4, #ledreason h5, #ledreason h6 {
+			font-family: 'Nunito', sans-serif;
+            font-size: 5em;
+            text-transform: none;
+            color: rgb(95,183,73);
+            margin-bottom: .2em;
+		}
+
+		#ledreason h2 {
+            font-family: 'Nunito', sans-serif;
+			font-size: 7em;
+			line-height: 1em;
+			margin: -.75em 0 0 0;
+			padding: 0;
+		}
+
+		#ledreason p {
+			font-size: 3em;
+			margin: -.3em 0 0 0;
+		}
+
+		#ledreason input[type="submit"],
+		#ledreason input[type="reset"],
+		#ledreason input[type="button"],
+		#ledreason .button {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+			color: #fff;
+			min-width: 12em;
+		}
+
+			#ledreason input[type="submit"]:hover,
+			#ledreason input[type="reset"]:hover,
+			#ledreason input[type="button"]:hover,
+			#ledreason .button:hover {
+				background-color: rgba(255, 255, 255, 0.1);
+			}
+
+			#ledreason input[type="submit"]:active,
+			#ledreason input[type="reset"]:active,
+			#ledreason input[type="button"]:active,
+			#ledreason .button:active {
+				background-color: rgba(255, 255, 255, 0.2);
+			}
+
+			#ledreason input[type="submit"].special,
+			#ledreason input[type="reset"].special,
+			#ledreason input[type="button"].special,
+			#ledreason .button.special {
+				background: #fff;
+				color: #666 !important;
 			}
     
 #project{
