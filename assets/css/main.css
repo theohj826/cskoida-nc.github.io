@@ -2036,7 +2036,7 @@
 	header h4 + p,
 	header h5 + p,
 	header h6 + p {
-		font-size: 1/25em;
+		font-size: 1.25em;
 		margin-top: -0.5em;
 		line-height: 1.5em;
 	}
@@ -2052,10 +2052,11 @@
 
 		header.major p {
 			display: inline-block;
-			border-top: solid 2px #777;
+			line-height: 1.6em;
+            font-size: 1.25em;
 			color: black;
 			margin: 1.5em 0 0 0;
-			padding: 1.5em 0 0 0;
+			padding: 0 0 0 0;
 			font-style: normal;
 		}
 
