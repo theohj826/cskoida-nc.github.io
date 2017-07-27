@@ -1863,6 +1863,7 @@
 	}
 .imag{
     border-radius:10%;
+    margin-top: .75em;
 }
     a imag{
 		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -1871,6 +1872,7 @@
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
         border-bottom-color: transparent;
 		text-decoration: none;
+        
 	}
 
 		a:hover {
