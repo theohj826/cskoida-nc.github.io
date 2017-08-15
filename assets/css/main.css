@@ -3318,6 +3318,77 @@
 				background: #fff;
 				color: #666 !important;
 			}
+#career{
+		background-attachment: scroll,							fixed;
+		background-color: #666;
+		
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: cover;
+		color: #fff;
+		padding: 12em 0 10em 0;
+		text-align: center;
+        background-image: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, 0.85) ), url("../../images/careers.jpg");
+	}
+
+		#career :last-child {
+			margin-bottom: 0;
+		}
+
+        #career h3, #career h4, #career h5, #career h6 {
+			font-family: 'Nunito', sans-serif;
+            font-size: 5em;
+            text-transform: none;
+            color: white;
+            margin-bottom: .2em;
+		}
+
+		#career h2 {
+            font-family: 'Nunito', sans-serif;
+            color: rgb(95,183,73);
+            
+			font-size: 7em;
+			line-height: 1em;
+			margin: -.75em 0 0 0;
+			padding: 0;
+		}
+
+		#career p {
+			font-size: 1.65em;
+			margin: .25em 0 0 0;
+		}
+
+		#career input[type="submit"],
+		#career input[type="reset"],
+		#career input[type="button"],
+		#career .button {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+			color: #fff;
+			min-width: 12em;
+		}
+
+			#career input[type="submit"]:hover,
+			#career input[type="reset"]:hover,
+			#career input[type="button"]:hover,
+			#career .button:hover {
+				background-color: rgba(255, 255, 255, 0.1);
+			}
+
+			#career input[type="submit"]:active,
+			#career input[type="reset"]:active,
+			#career input[type="button"]:active,
+			#career .button:active {
+				background-color: rgba(255, 255, 255, 0.2);
+			}
+
+			#career input[type="submit"].special,
+			#career input[type="reset"].special,
+			#career input[type="button"].special,
+			#career .button.special {
+				background: #fff;
+				color: #666 !important;
+			}
 #finance{
 		background-attachment: scroll,							fixed;
 		background-color: #666;
